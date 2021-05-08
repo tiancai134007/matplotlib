@@ -16,3 +16,4 @@
     plt.legend()
     plt.show()
 #### 结果展示
+![image](https://github.com/tiancai134007/matplotlib/blob/main/%E5%9B%BE%E5%83%8F/plot.png)

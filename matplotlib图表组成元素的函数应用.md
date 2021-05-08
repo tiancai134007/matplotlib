@@ -17,3 +17,21 @@
     plt.show()
 #### 结果展示
 ![image](https://github.com/tiancai134007/matplotlib/blob/main/%E5%9B%BE%E5%83%8F/plot.png)
+
+# scatter()---寻找变量之间的关系
+调用代码：plt.scatter(x,y,c=,label=)
+参数说明：
+* x: x轴上的数值
+* y: y轴上的数值
+* c: 散点图中的标记的颜色
+* label：标记图形内容的标签文本
+#### 代码实现
+    import matplotlib.pyplot as plt
+    import numpy as np
+    x = np.linspace(0.05 ,10 ,1000)
+    y = np.random.rand(1000)
+    plt.scatter(x,y,c="red",label="plot figure")
+    plt.legend()
+    plt.show()
+#### 结果展示
+![image](https://github.com/tiancai134007/matplotlib/blob/main/%E5%9B%BE%E5%83%8F/scatter.png)

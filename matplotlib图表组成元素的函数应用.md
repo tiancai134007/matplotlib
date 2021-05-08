@@ -35,3 +35,20 @@
     plt.show()
 #### 结果展示
 ![image](https://github.com/tiancai134007/matplotlib/blob/main/%E5%9B%BE%E5%83%8F/scatter.png)
+
+# xlabel()与ylabel（）---设置x轴与y轴的标签文本
+调用代码：plt.xlabel（string）
+参数说明：
+* string: 标签文本内容
+#### 代码实现
+    import matplotlib.pyplot as plt
+    import numpy as np
+    x = np.linspace(0.05 ,10 ,1000)
+    y = np.sin(x)
+    plt.plot(x,y,ls="-.",lw=2,c="g",label="plot figure")
+    plt.legend()
+    plt.xlabel("x-axis")
+    plt.ylabel("y-axis")
+    plt.show()
+#### 结果展示
+![image](https://github.com/tiancai134007/matplotlib/blob/main/%E5%9B%BE%E5%83%8F/xlabel.png)
